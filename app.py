@@ -48,6 +48,9 @@ def get_binary_file_downloader_link(file_buffer, file_name):
 st.title(":latin_cross: HGU Image to PDF Converter :point_up_2::wolf:")
 st.markdown("---")
 
+image = Image.open('vika.jpg')
+st.image(image, caption='Beautiful Vitek in Tomatillos')
+
 uploaded_images = st.file_uploader("Upload your images (jpg, jpeg, png, webp)", type=["jpg", "jpeg", "png", "webp"], accept_multiple_files=True)
 st.markdown("---")
 
